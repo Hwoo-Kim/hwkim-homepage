@@ -77,8 +77,8 @@ main {
     height: 40px;
 }
 
-/* Style for call.PNG image */
-.main img[alt="Call Icon"] {
+/* Style for call icon image */
+.call-icon {
     width: 100px; /* Default size for desktop */
     display: block;
     margin: 0 auto 40px auto;
@@ -126,8 +126,8 @@ main {
         height: 25px !important;
     }
 
-    /* Adjust call.PNG image size for mobile */
-    .main img[alt="Call Icon"] {
+    /* Adjust call icon image size for mobile */
+    .call-icon {
         width: 50px !important; /* Smaller size for mobile */
         margin-bottom: 20px !important;
     }
