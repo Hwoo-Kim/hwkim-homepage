@@ -70,6 +70,10 @@ main {
     margin-bottom: 5px;
 }
 
+.contact-social-icons a:hover i, .contact-social-icons a:active i {
+    color: #333; /* Keep original color on hover/active */
+}
+
 .contact-social-icons p {
     margin: 0;
     font-size: 0.9em;
