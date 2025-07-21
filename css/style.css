@@ -7,7 +7,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 300px;
 }
 
 header {
@@ -37,6 +37,10 @@ nav ul li a {
     text-decoration: none;
     color: black;
     padding: 10px 20px;
+}
+
+main a {
+    text-decoration: none;
 }
 
 main {
@@ -132,12 +136,13 @@ p.section-text:nth-of-type(2) {
     font-weight: bold;
     color: #888;
     margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 /* Specific adjustments for Ph.D. student in Chemistry, KAIST */
 p.section-text:nth-of-type(3) {
     color: #444;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 /* Specific adjustments for 2016 – 2020 Aug. */
@@ -145,19 +150,27 @@ p.section-text:nth-of-type(4) {
     font-weight: bold;
     color: #888;
     margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 /* Specific adjustments for B.S. in Chemistry(Physics, minor), KAIST */
 p.section-text:nth-of-type(5) {
     color: #444;
     margin-top: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
-/* Specific adjustments for I am currently a Ph.D. candidate... */
 p.section-text:nth-of-type(6) {
-    margin-top: 20px;
-    margin-bottom: 70px;
+    font-weight: bold;
+    color: #888;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+p.section-text:nth-of-type(7) {
+    color: #444;
+    margin-top: 5px;
+    margin-bottom: 50px;
 }
 
 /* Specific adjustments for Department of Chemistry... */
@@ -180,8 +193,14 @@ p.section-text:last-of-type {
     margin-bottom: 35px;
 }
 
+footer p {
+    font-size: 0.8em;
+}
+
 footer p:first-child {
     color: grey;
+    border-top: 1px solid #ccc;
+    padding-top: 10px; /* 선과 텍스트 사이 간격 */
 }
 
 footer {
@@ -219,9 +238,13 @@ footer {
         font-size: 30px !important;
     }
 
-    #publications-title {
-        white-space: nowrap;
-    }
+    #publications-title span {
+    flex-grow: 1;
+}
+
+#publications-title {
+    white-space: nowrap;
+}
 
     #email-contact {
         margin-bottom: 35px;
