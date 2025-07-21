@@ -211,6 +211,11 @@ footer {
     font-size: 50px; /* Default size for desktop */
 }
 
+.publication-image {
+    width: 150px;
+    height: 150px;
+}
+
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .container {
@@ -228,6 +233,11 @@ footer {
 
     .quote-text {
         font-size: 1.2em; /* Smaller font size for main quote on mobile */
+    }
+
+    .publication-image {
+        width: 80px !important;
+        height: 80px !important;
     }
 
     .main-image {
