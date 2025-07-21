@@ -216,6 +216,10 @@ footer {
     height: 150px;
 }
 
+.history-title {
+    font-size: 2em; /* Default size for desktop */
+}
+
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .container {
@@ -224,6 +228,7 @@ footer {
 
     header img {
         width: 200px; /* Smaller logo on mobile */
+        height: auto;
     }
 
     nav ul li a {
