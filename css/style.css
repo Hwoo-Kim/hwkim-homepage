@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box; /* Add this for easier responsive design */
+    background-color: lightgray; /* Temporary for testing */
 }
 
 .container {
