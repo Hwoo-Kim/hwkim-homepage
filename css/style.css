@@ -132,8 +132,8 @@ main {
         height: 45px !important;
     }
 
-    .contact-social-icons i {
-        font-size: 32px !important; /* Smaller icon size for mobile (20% reduced from 40px) */
+    .contact-social-icons > div > a > i {
+        font-size: 45px !important; /* Slightly larger for better visibility */
     }
 
     /* Adjust call icon image size for mobile */
