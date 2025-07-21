@@ -16,9 +16,9 @@ header {
 }
 
 header img {
-    width: 300px; /* Adjust logo size as needed */
+    width: 350px; /* Adjust logo size as needed */
     max-width: 100%; /* Ensure it scales down */
-    height: auto; /* Maintain aspect ratio */
+    height: 280px; /* Maintain aspect ratio */
     display: block;
     margin: auto;
 }
@@ -253,7 +253,7 @@ footer {
     }
 
     .history-title {
-        font-size: 1.5em;
+        font-size: 1.5em !important;
     }
 
     #publications-title span {
