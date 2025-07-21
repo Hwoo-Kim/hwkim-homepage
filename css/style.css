@@ -60,21 +60,19 @@ main {
     margin-bottom: 30px;
 }
 
-/* Default (Desktop) sizes for social icons */
-.contact-social-icons a:nth-child(1) img, /* Google Scholar */
-.contact-social-icons a:nth-child(2) img {
-    width: 70px;
-    height: 70px;
+.contact-social-icons > div {
+    text-align: center;
 }
 
-.contact-social-icons a:nth-child(3) img {
-    width: 50px;
-    height: 50px;
+.contact-social-icons i {
+    font-size: 50px; /* Default icon size */
+    color: #333; /* Default icon color */
+    margin-bottom: 5px;
 }
 
-.contact-social-icons a:nth-child(4) img {
-    width: 70px;
-    height: 40px;
+.contact-social-icons p {
+    margin: 0;
+    font-size: 0.9em;
 }
 
 /* Style for call icon image */
@@ -110,20 +108,8 @@ main {
     }
 
     /* Adjust social icons in contact page for mobile */
-    .contact-social-icons a:nth-child(1) img, /* Google Scholar */
-    .contact-social-icons a:nth-child(2) img {
-        width: 60px !important;
-        height: 60px !important;
-    }
-
-    .contact-social-icons a:nth-child(3) img {
-        width: 50px !important;
-        height: 50px !important;
-    }
-
-    .contact-social-icons a:nth-child(4) img {
-        width: 80px !important;
-        height: 45px !important;
+    .contact-social-icons i {
+        font-size: 40px; /* Smaller icon size for mobile */
     }
 
     /* Adjust call icon image size for mobile */
