@@ -83,9 +83,14 @@ main {
         height: 40px !important;
     }
 
-    .contact-social-icons img:last-child {
-        width: 60px !important;
+    .contact-social-icons img:nth-child(3) {
+        width: 30px !important;
         height: 30px !important;
+    }
+
+    .contact-social-icons img:last-child {
+        width: 50px !important;
+        height: 25px !important;
     }
 }
 
