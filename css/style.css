@@ -52,6 +52,31 @@ main {
     color: #444;
 }
 
+/* Add a class for social icons div to target specifically */
+.contact-social-icons {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-bottom: 30px;
+}
+
+/* Default (Desktop) sizes for social icons */
+.contact-social-icons a:nth-child(1) img, /* Google Scholar */
+.contact-social-icons a:nth-child(2) img { /* LinkedIn */
+    width: 70px;
+    height: 70px;
+}
+
+.contact-social-icons a:nth-child(3) img { /* GitHub */
+    width: 50px;
+    height: 50px;
+}
+
+.contact-social-icons a:nth-child(4) img { /* ORCID */
+    width: 70px;
+    height: 40px;
+}
+
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .container {
@@ -77,27 +102,20 @@ main {
         max-width: 90% !important;
     }
 
-    /* Adjust social icons in contact page */
-    .contact-social-icons img {
+    /* Adjust social icons in contact page for mobile */
+    .contact-social-icons a:nth-child(1) img, /* Google Scholar */
+    .contact-social-icons a:nth-child(2) img { /* LinkedIn */
         width: 40px !important;
         height: 40px !important;
     }
 
-    .contact-social-icons img:nth-child(3) {
+    .contact-social-icons a:nth-child(3) img { /* GitHub */
         width: 30px !important;
         height: 30px !important;
     }
 
-    .contact-social-icons img:last-child {
+    .contact-social-icons a:nth-child(4) img { /* ORCID */
         width: 50px !important;
         height: 25px !important;
     }
-}
-
-/* Add a class for social icons div to target specifically */
-.contact-social-icons {
-    display: flex; 
-    justify-content: center; 
-    gap: 20px; 
-    margin-bottom: 30px;
 }
