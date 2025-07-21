@@ -7,12 +7,12 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 300px;
+    padding: 15px 300px;
 }
 
 header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 header img {
@@ -252,12 +252,17 @@ footer {
         font-size: 30px !important;
     }
 
+    .history-title {
+        font-size: 1.5em;
+    }
+
     #publications-title span {
     flex-grow: 1;
 }
 
 #publications-title {
     white-space: nowrap;
+    font-size: 1.5em;
 }
 
     #email-contact {
