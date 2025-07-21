@@ -177,7 +177,7 @@ p.section-text:last-of-type {
 }
 
 #email-contact {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 footer p:first-child {
@@ -217,6 +217,10 @@ footer {
 
     #publications-title {
         white-space: nowrap;
+    }
+
+    #email-contact {
+        margin-bottom: 5px;
     }
 
     /* Adjust image sizes in main content */
