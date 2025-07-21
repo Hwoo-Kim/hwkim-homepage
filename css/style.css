@@ -112,18 +112,18 @@ main {
     /* Adjust social icons in contact page for mobile */
     .contact-social-icons a:nth-child(1) img, /* Google Scholar */
     .contact-social-icons a:nth-child(2) img {
-        width: 40px !important;
-        height: 40px !important;
+        width: 60px !important;
+        height: 60px !important;
     }
 
     .contact-social-icons a:nth-child(3) img {
-        width: 30px !important;
-        height: 30px !important;
+        width: 50px !important;
+        height: 50px !important;
     }
 
     .contact-social-icons a:nth-child(4) img {
-        width: 50px !important;
-        height: 25px !important;
+        width: 80px !important;
+        height: 45px !important;
     }
 
     /* Adjust call icon image size for mobile */
