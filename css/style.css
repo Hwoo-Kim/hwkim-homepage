@@ -257,6 +257,10 @@ footer {
         font-size: 30px !important;
     }
 
+    .history-item-text {
+        font-size: 0.9em;
+    }
+
     .history-title {
         font-size: 1.5em !important;
     }
