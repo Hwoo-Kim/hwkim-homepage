@@ -227,8 +227,8 @@ footer {
     }
 
     header img {
-        width: 250px; /* Smaller logo on mobile */
-        height: auto;
+        width: 280px; /* Smaller logo on mobile */
+        height: 200px;
     }
 
     nav ul li a {
