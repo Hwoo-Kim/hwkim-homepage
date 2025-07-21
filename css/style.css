@@ -235,9 +235,13 @@ footer {
         font-size: 1.2em; /* Smaller font size for main quote on mobile */
     }
 
+    .publication-entry {
+        flex-direction: column;
+    }
+
     .publication-image {
-        width: 80px !important;
-        height: 120px !important;
+        width: 100% !important;
+        height: auto !important;
     }
 
     .main-image {
