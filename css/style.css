@@ -272,6 +272,7 @@ footer {
 #publications-title {
     white-space: nowrap;
     font-size: 1.5em !important;
+    text-align: left !important;
 }
 
     #email-contact {
