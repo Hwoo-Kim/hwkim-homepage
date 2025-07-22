@@ -242,6 +242,7 @@ footer {
 
     .publication-entry {
         flex-direction: column;
+        align-items: center;
     }
 
     .publication-image {
