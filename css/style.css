@@ -310,4 +310,9 @@ footer {
         width: 50px !important; /* Smaller size for mobile */
         margin-bottom: 20px !important;
     }
+
+    .about-profile-image {
+        width: 60% !important;
+        max-width: 250px !important;
+    }
 }
